@@ -12,7 +12,7 @@
 }
 
 body { 
-  font-family: var(--font_stack), var(--font_logo), Arial, Helvetica, sans-serif;  
+  font-family: var(--font_stack), Arial, Helvetica, sans-serif,  var(--font_logo);  
   color: var(--h2_h3_font_color);
   background-color: var(--primary_color);
   text-decoration: none;
