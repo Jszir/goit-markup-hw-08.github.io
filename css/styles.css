@@ -158,6 +158,7 @@ nav .nav__link--current2 {
 .title__port{ color: var(--primary_color); 
   font-size: 10px;
   text-align: left;
+  user-select: none;
 }
 
 .main__port .button {
