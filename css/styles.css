@@ -11,8 +11,8 @@
   --tag_border_color: #EEEEEE;
 }
 
-body {
-  font-family: var(--font_stack), var(--font_logo);
+body { 
+  font-family: var(--font_stack), var(--font_logo), Arial, Helvetica, sans-serif;  
   color: var(--h2_h3_font_color);
   background-color: var(--primary_color);
   text-decoration: none;
@@ -153,6 +153,11 @@ nav .nav__link--current2 {
 
 .container--third {
   background-color: var(--alternative_white);
+}
+
+.title__port{ color: var(--primary_color); 
+  font-size: 10px;
+  text-align: left;
 }
 
 .main__port .button {
