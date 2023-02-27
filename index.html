@@ -26,12 +26,12 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav__link" href="portfolio.html" target="_blank" rel="noopener noreferrer">
+                    <a class="nav__link after__link" href="portfolio.html" target="_blank" rel="noopener noreferrer">
                         Portafolio
                     </a>
                 </li>
                 <li>
-                    <a class="nav__link " href="" target="_blank" rel="noopener noreferrer">
+                    <a class="nav__link after__link " href="" target="_blank" rel="noopener noreferrer">
                         Contactos
                     </a>
                 </li>
@@ -69,11 +69,27 @@
             <h1 class="main__title">
                 SOLUCIONES EFICACES PARA <br> SU NEGOCIO
             </h1>
-            <button class="main__button" type="button">
+            <button id="data-modal-open" class="main__button" type="button" >
                 Solicite nuestro servicio
             </button>
         </div>
     </main>
+
+    <section class="container__modal">
+        <div class="backdrop" id="data-modal"> 
+            <div class="modal"> 
+                <div class="quit" id="data-modal-close"> 
+                <svg class="quit_svg"> 
+                    <use href="images/icons.svg#quit" > 
+                    </use> 
+                </svg> 
+            </div>
+        </div>
+
+        </div>
+
+
+    </section>
     
     <section>
         <div class="container">
@@ -498,5 +514,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
