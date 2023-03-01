@@ -79,16 +79,67 @@
         <div class="backdrop" id="data-modal"> 
             <div class="modal"> 
                 <div class="quit" id="data-modal-close"> 
-                <svg class="quit_svg"> 
-                    <use href="images/icons.svg#quit" > 
-                    </use> 
-                </svg> 
+                    <svg class="quit__svg"> 
+                        <use href="images/icons.svg#quit" > 
+                        </use> 
+                    </svg> 
+                </div>
+                
+                <div class="contact__modal"> 
+                    <h3>
+                        Deje sus datos, nos contactaremos con usted
+                    </h3>
+                    <form class="form" name="signup__form"> 
+                        <label class=" input__wrapper">
+                            Nombre
+                            <input type="text" name="username" class="input__box"  required>
+                            <svg class="input__icon"> 
+                                <use href="images/icons.svg#name"> 
+                                </use>
+                            </svg>
+                        </label>
+                        
+                        <label class="input__wrapper">
+                            Télefono
+                            <input type="number" name="number" class="input__box"  required>
+                            <svg class="input__icon"> 
+                                <use href="images/icons.svg#number"> 
+                                </use>
+                            </svg>
+                        </label>
+                        
+                        <label class="input__wrapper">
+                            E-mail
+                            <input type="email" name="form__email" class="input__box"  required>
+                            <svg class="input__icon"> 
+                                <use href="images/icons.svg#mail"> 
+                                </use>
+                            </svg>
+                        </label>
+                            
+                        <label class=" input__wrapper">
+                            Comentarios
+                            <textarea placeholder="Introduzca el texto" name="comments" class="input__box input__comment" rows="7"></textarea>
+                        </label>
+                        
+                        <div class="checkbox"> 
+                            <input type="checkbox" name="checkbox" class="check" id="agreement" required>
+                            Estoy de acuerdo con el boletín informativo y acepto los Términos y Condiciones. 
+                            <label class="label" for="agreement"> 
+                                <svg class="check__icon"> 
+                                    <use href="images/icons.svg#check"> 
+                                    </use>
+                                </svg>
+                            </label>
+                        </div>
+                        
+                        <button class="send__button" type="submit">
+                            Enviar
+                        </button>
+                    </form> 
+                </div>
             </div>
         </div>
-
-        </div>
-
-
     </section>
     
     <section>
@@ -450,7 +501,7 @@
                 </a>
                 <address class="address">
                     <a href="" target="_blank" rel="noopener noreferrer"> 
-                        Calz. Ticomán 500, Ciudad de México, CDMX, México
+                        Calz. Ticomán 500, <div>  Ciudad de México, CDMX, México
                     </a>
                 </address>
                 <ul class="nav__inf --nav__infooter">
@@ -468,7 +519,8 @@
             </div>
     
             <div class="footer__contact"> 
-                <h3> ENCUENTRENOS EN
+                <h3>
+                    ENCUENTRENOS EN
                 </h3>
                 <ul class="icon__footer"> 
                     <li> 
@@ -512,9 +564,25 @@
                     </li>  
                 </ul>
             </div>
+
+            <form class="foot__inbox"> 
+                <label>
+                <h3>
+                    SUSCRÍBASE AL BOLETÍN INFORMATIVO
+                </h3>
+                <div class="foot__inbox1">
+                    <input type="email" name="email" class="input__email" placeholder="Correo electrónico" required>
+                </label>
+                <button type="submit" class="subscribe__bt">
+                    Suscríbase
+                    <svg class="send__icon" > 
+                        <use href="images/icons.svg#send"> </use> 
+                    </svg>
+                </button>
+            </div>
+            </form>
         </div>
     </footer>
-
     <script src="./js/modal.js"></script>
 </body>
 </html>
