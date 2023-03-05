@@ -1,0 +1,72 @@
+.container--team {
+	background-color: $alternative_white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.teammate__card {
+	display: inline-flex;
+	width: 270px;
+	margin-right: 32px;
+	flex-direction: column;
+	background-color: $primary_color;
+	box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1411764706);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1215686275);
+	.teammate {
+		width: 270px;
+		height: 260px;
+	}
+}
+.teammate__name {
+	font-size: 16px;
+	line-height: 1.172em;
+	text-align: center;
+	margin-top: 30px;
+}
+.teammate__occupation {
+	font-size: 16px;
+	line-height: 1.188em;
+	text-align: center;
+	color: $p_font_color;
+	margin-top: -5px;
+	margin-bottom: 20px;
+}
+.teammates__social__media {
+	display: flex;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+.teammates__background__sm {
+	background-color: $primary_color;
+	border-radius: 50px;
+	height: 44px;
+	width: 44px;
+	margin: 5px;
+	fill: #AFB1B8;
+	cursor: pointer;
+	&:hover {
+		background-color: $third_color;
+		fill: $primary_color;
+		transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	}
+}
+.teammates__link__sm {
+	&:focus {
+		>.teammates__background__sm {
+			background-color: $third_color;
+			fill: $primary_color;
+			transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+		}
+	}
+}
+.teammates__icons {
+	fill: inherit;
+	margin-top: 12px;
+	margin-left: 11.8px;
+	height: 30px;
+	width: 36px;
+}
+.teammates__icons_1 {
+	margin-left: 12.2px;
+}

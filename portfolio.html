@@ -10,27 +10,27 @@
 <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/main.min.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
+    <header class="page__header">
+        <nav class="nav__header">
             <a class="nav__logo" href="#">
                 WebStudio
             </a>
             <ul class="nav__bar">
-                <li>
+                <li class="nav__list">
                     <a class="nav__link" href="index.html" target="_blank" rel="noopener noreferrer">
                         Estudio
                     </a>
                 </li>
-                <li>
+                <li class="nav__list">
                     <a class="nav__link nav__link--current after__link nav__link--current2" href="portfolio.html" target="" rel="noopener noreferrer">
                         Portafolio
                     </a>
                 </li>
-                <li>
+                <li class="nav__list">
                     <a class="nav__link after__link" href="" target="_blank" rel="noopener noreferrer">
                         Contactos
                     </a>
@@ -39,9 +39,9 @@
         </nav>
 
         <ul class="nav__contact">
-            <li class="container__nav__icon">
+            <li class="nav__container__icon">
                 <a class= "nav__icon" href="mailto:info@devstudio.com" > 
-                    <svg> 
+                    <svg class="nav__contact__icon"> 
                         <use href="images/icons.svg#email" > 
                         </use> 
                     </svg>
@@ -50,9 +50,9 @@
                     info@devstudio.com
                 </a>
             </li>
-            <li class="container__nav__icon">
+            <li class="nav__container__icon">
                 <a class= "nav__icon" href="tel:+525555296000"> 
-                    <svg > 
+                    <svg class="nav__contact__icon" > 
                         <use href="images/icons.svg#phone"> 
                         </use>
                     </svg>
@@ -63,11 +63,12 @@
             </li>
         </ul>
     </header>
-<main class="main__port">
+    
+<main class="port__main">
     <hr> 
-    <section class="container_port">
+    <section class="port__container">
         <div class="container"> 
-        <h1 class="title__port"> 
+        <h1 class="port__title"> 
             Portafolio
         </h1>
         <ul class="main__list"> 
@@ -99,143 +100,143 @@
             </li>
         </ul>
 
-        <ul class="main__images"> 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/web_tecno.jpg" alt="Sitio web">
-                    <div class="blue_card"> 
-                        <p> Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.  </p> 
+        <ul class="products__list"> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/web_tecno.jpg" alt="Sitio web">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Tecnoduck es una plataforma de distribución de coronavirus de última generación. Las compañías usan esta plataforma para el espionaje digital y los ataques a los servidores seguros de la competencia.  </p> 
                     </div>
                 </a>
-                <h2 class="main__subt">
+                <h2 class="product__name">
                     Tecnoduck
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Sitio-web
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/basket.jpg" alt="Poster">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/basket.jpg" alt="Poster">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
 
-                <h2 class="main__subt --subt2">
+                <h2 class="product__name product__name_2">
                     Póster de Nueva Orleans vs <br> Estrella Dorada
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Diseño
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/restaurant.jpg" alt="Restaurante">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/restaurant.jpg" alt="Restaurante">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
                 
-                <h2 class="main__subt">
+                <h2 class="product__name">
                     Restaurante Seafood
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Aplicaciones
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/headphones.jpg" alt="Auriculares">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/headphones.jpg" alt="Auriculares">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
-                <h2 class="main__subt">
+                <h2 class="product__name">
                     Proyecto Prime
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Marketing
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/boxes.jpg" alt="Cajas">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/boxes.jpg" alt="Cajas">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
                 
-                <h2 class="main__subt">
+                <h2 class="product__name">
                     Proyecto Cajas
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Aplicaciones
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/computer_screen.jpg" alt="Sitio-web2">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/computer_screen.jpg" alt="Sitio-web2">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
-                <h2 class="main__subt"> 
+                <h2 class="product__name"> 
                     La inspiración no tiene límites 
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Sitio-web
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/book.jpg" alt="Libro">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/book.jpg" alt="Libro">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
-                <h2 class="main__subt">
+                <h2 class="product__name">
                     Edición Limitada
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Diseño
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/tag.jpg" alt="Tag">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/tag.jpg" alt="Tag">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
                 
-                <h2 class="main__subt">
+                <h2 class="product__name">
                     Proyecto LAB
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Marketing
                 </p>
             </li>
 
-            <li class="image">
-                <a href="#" class="product_image"> 
-                    <img class="product" src="images/laptop.jpg" alt="Laptop">
-                    <div class="blue_card"> 
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
+            <li class="product__card">
+                <a href="#" class="product__link"> 
+                    <img class="product__image" src="images/laptop.jpg" alt="Laptop">
+                    <div class="product__blue__card"> 
+                        <p class="blue__card__text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur, officiis. Cum laboriosam recusandae asperiores magni facere commodi natus itaque sequi doloremque, tempora molestiae aliquam. </p> 
                     </div>
                 </a>
                 
-                <h2 class="main__subt">
+                <h2 class="product__name">
                     Negocio en crecimiento
                 </h2>
-                <p class="main__p">
+                <p class="product__field">
                     Aplicaciones
                 </p>
             </li>
@@ -243,25 +244,26 @@
     </div>
     </section>
 </main>
-<footer class="footer">
+
+<footer class="page__footer">
     <div class="container footer__container">
-        <div> 
+        <div class="footer__info"> 
             <a class="nav__logo" href="">
                 WebStudio
             </a>
-            <address class="address">
-                <a href="" target="_blank" rel="noopener noreferrer"> 
-                    Calz. Ticomán 500, <div>  Ciudad de México, CDMX, México
+            <address class="footer__address">
+                <a class=" footer__text footer__address__text" href="" target="_blank" rel="noopener noreferrer"> 
+                    Calz. Ticomán 500,   Ciudad de  <div> México, CDMX, México 
                 </a>
             </address>
-            <ul class="nav__inf --nav__infooter">
+            <ul class="footer__data footer__data_2">
                 <li>
-                    <a href="mailto:info@devstudio.com">
+                    <a class="footer__text" href="mailto:info@devstudio.com">
                         info@devstudio.com
                     </a>
                 </li>
                 <li>
-                    <a href="tel:+525555296000">
+                    <a class="footer__text" href="tel:+525555296000">
                         +52 55 5529 6000
                     </a>
                 </li>
@@ -269,44 +271,44 @@
         </div>
 
         <div class="footer__contact"> 
-            <h3>
+            <h3 class="footer__contact__title">
                 ENCUENTRENOS EN
             </h3>
-            <ul class="icon__footer"> 
-                <li> 
+            <ul class="footer__list__icon"> 
+                <li class="footer__icon"> 
                     <a href="https://www.instagram.com/" target="_blank" class="foot_link">
                         <div class="footer__social-media"> 
-                            <svg class="footer__icon" > 
+                            <svg class="footer__svg" > 
                                 <use href="images/icons.svg#ins"> </use> 
                             </svg>
                         </div>
                     </a>                    
                 </li>
                 
-                <li> 
+                <li class="footer__icon" > 
                     <a href="https://twitter.com/home" target="_blank" class="foot_link">
                         <div  class="footer__social-media" > 
-                            <svg class="footer__icon" > 
+                            <svg class="footer__svg" > 
                                 <use href="images/icons.svg#twitter"> </use> 
                             </svg>
                         </div>
                     </a>
                 </li>
                 
-                <li> 
+                <li class="footer__icon"> 
                     <a href="https://www.facebook.com/ " target="_blank" class="foot_link"> 
                         <div class="footer__social-media">
-                            <svg class="footer__icon" > 
+                            <svg class="footer__svg" > 
                                 <use href="images/icons.svg#facebook"> </use> 
                             </svg>
                         </div>
                     </a>
                 </li>
                 
-                <li> 
+                <li class="footer__icon"> 
                     <a href="https://www.linkedin.com/" target="_blank" class="foot_link">
                         <div  class="footer__social-media">
-                            <svg class="footer__icon" > 
+                            <svg class="footer__svg" > 
                                 <use href="images/icons.svg#linkedin"> </use> 
                             </svg>
                         </div>
@@ -315,12 +317,12 @@
             </ul>
         </div>
 
-        <form class="foot__inbox"> 
-            <label>
-            <h3>
+        <form class="footer__form"> 
+            <label class="footer__inbox">
+            <h3 class="footer__form__title">
                 SUSCRÍBASE AL BOLETÍN INFORMATIVO
             </h3>
-            <div class="foot__inbox1">
+            <div class="footer__inbox_1">
                 <input type="email" name="email" class="input__email" placeholder="Correo electrónico" required>
             </label>
             <button type="submit" class="subscribe__bt">
