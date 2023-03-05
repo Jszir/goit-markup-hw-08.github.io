@@ -1,0 +1,23 @@
+.occupations__rectangle {
+	width: 374px;
+	margin-top: 254px;
+	height: 70px;
+	background-color: #2F303ACC;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.rectangle__text {
+	color: $primary_color;
+}
+.ocupations__title {
+	margin-top: -100px;
+}
+.occupations__images {
+	display: flex;
+	justify-content: center;
+}
+.occupations__pic {
+	margin-right: 30.26px;
+}
