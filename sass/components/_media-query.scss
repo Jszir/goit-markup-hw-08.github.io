@@ -1,0 +1,665 @@
+
+@media  screen and  (min-width: 768px){
+    .toggle { display: none;}
+    }
+    
+    @media screen and  (max-width: 768px) {
+      .nav__logo { 
+        margin-left: -160px;
+      } 
+    
+    }
+      
+      
+    @media screen  and (max-width: 1560px)
+    {
+      .nav__contact { 
+        margin-left: 120px;
+      }
+    }
+    
+    @media screen  and (max-width: 1498px)
+    {
+      .nav__logo { 
+        margin-left: -80px;
+      }
+      .main__index { width: 100%;}
+    .advantage__icon { 
+       width: 100px;
+    }
+      .nav__logo2 { 
+        margin-left: 120px;
+      }
+      .footer__info { 
+        margin-left: -80px;
+      }
+      .footer__contact { 
+        margin-left: 20px;
+      }
+    
+      .footer__form { 
+        margin-left: 40px;
+      }
+    }
+    @media screen and (max-width: 1407px) {
+      .team__list{ width: 1250px; margin-left: 27px;
+      }
+      .occupations__images { 
+        margin-left: 27px;
+      }
+      .advantage__container { 
+        margin-left: 27px;
+      }
+    }
+    
+    @media screen  and (max-width: 1375px) {
+     
+      .team__list{ margin-left: 0px; width: 1220px;
+      }
+    }
+    
+    
+    
+    @media screen  and (max-width: 1317px) 
+      { .nav__logo { margin-left: -160px;}
+      .nav__logo2 { margin-left: 120px;
+      }
+      .team__list{margin-left: -27px; 
+      }
+      }
+    
+      @media screen  and (max-width: 1286px) 
+      { .team__list{ margin-left: -60px; width: 1220px;}
+      .footer__container { margin-left: -100px;}
+      }
+      @media screen  and (max-width: 1248px) 
+      { .nav__logo { margin-left: -190px;}
+      .nav__logo2 { margin-left: 120px;
+      }
+      .team__list{ margin-left: -80px; width: 1220px;}
+    
+      }
+    
+      @media screen and (max-width: 1238px) {
+    
+        .team__list{ width: 800px; margin-left: 200px;}
+        .occupations__images{width: 100%; margin-left: -20px }
+        .occupations__list { width: 100%; margin-left: 20px;}
+        .occupations__pic { margin-right: 0px; }
+        .footer__contact { margin-left: 20px }
+      
+      }
+    
+      @media screen  and (max-width: 1200px) 
+    {  
+    .occupations { display: none; }
+    .nav__contact { 
+      display: block;
+      margin-left: 220px;
+      margin-top: -1px;
+    }
+    
+    .nav__container__icon {
+      margin-top: 10px; 
+    }
+    .container .advantage__container { flex-wrap: wrap; margin-left: -210px;}
+    .advantage__p { width: 380px;}
+    .team__cards{ width: 500px;}
+    .teammate__card{margin-top: 30px; width: 374px;}
+    .teammate__card .teammate{ width: 374px; height: 354px;}
+    .team__list{ width: 870px;  margin-left: -150px;}
+    .teammates__social__media { margin-left: 75px;}
+    
+    
+    .advantage__list { flex-wrap: wrap;}
+    .advantage_last { margin-top: 38px;}
+    .advantage__icon{margin-left: 160px;}
+    
+    .advantages__rectangle { width: 400px;}
+    .advantage__list { margin-left: 110px;}
+    
+    .clients__icon__container .client_focus { width: 226px; margin-top: 20px; margin-left: 20px;}
+    .clients {flex-wrap: wrap; width: 800px; margin-left: 50px;}
+    .clients__icon { margin-left: 90px;}
+    .clients__icon4 {margin-left:  80px;}
+    .clients__icon5 {margin-left:  80px;}
+    .clients__icon6 {margin-left:  70px;}
+    .footer__form { 
+      margin-top: 180px;
+      margin-left: -600px;
+    }
+    .footer__container{
+      margin-left: 150px;
+    }
+    .footer__info{ margin-top: -125px;}
+    .footer__contact { 
+      margin-left: 80px; margin-top: -160px;
+    }
+    
+    }
+    
+    @media screen and (max-width: 1100px) {
+      .nav__contact {margin-left: 100px;}
+      .nav__bar { margin-left: 50px;}
+      
+    }
+    
+    @media screen and (max-width: 1030px) { 
+      .footer__container { margin-left: 100px;}
+      .clients { margin-left: 10px;}
+      .nav__contact { margin-left: 40px;}
+      .nav__bar { margin-left: 10px;}
+    }
+    
+    @media screen and (max-width: 1030px) { 
+      .footer__container { margin-left: 100px;}
+      .clients { margin-left: 10px; width: 100%;}
+      .nav__contact { margin-left: 40px;}
+      .nav__bar { margin-left: 10px;}
+    }
+    
+    @media screen and (max-width: 925px)  { 
+      .clients { width: 750px; margin-left: -20px;}
+      .team__list { width: 825px;}
+      .nav__contact {margin-left: 5px;}
+    }
+    
+    @media screen and (max-width: 894px) {
+      .nav__bar{margin-left: 30px;}
+      .clients{margin-left: -60px;}
+      .nav__link {margin-left: 10px;}
+    }
+    
+    @media screen and (max-width: 850px) {
+      .nav__bar{margin-left: 30px;}
+      .clients{margin-left: -60px;}
+      .nav__link {margin-left: 10px;}
+      .team__list { width: 768px; margin-left: -130px;}
+      .teammate__card {margin-right: 0px;}
+      .teammate__card1 {margin-right: 15px;}
+      .footer__container { margin-left: 30px;}
+    }
+    
+    @media screen and (max-width: 806px) { 
+      .advantages__rectangle{ width: 354px;
+      }
+      .container .advantage__container{margin-left: -180px; width: 820px;}
+      .advantage__list{margin-left: 80px;}
+      .nav__contact{ margin-left: 0px;}
+      .nav__bar{margin-left: 1px;}
+      .advantage__p {width: 354px;}
+      .clients {margin-left: -80px;}
+      .advantage__list2 { margin-top: -10px;}
+    }
+    
+    @media screen and (max-width: 776px) {
+      .team__list{margin-left: -134px;
+      }
+      .container .advantage__container{margin-left: -186px;}
+      .clients { margin-left: -95px;}
+    }
+    
+    @media screen and (max-width: 767px) {
+      .nav__contact{ display: none;}
+      .nav__bar{display: none;}
+      .page__header { height: 60px;}
+      .container .advantage__container{
+        width: 100%; 
+        margin-left: -240px;
+      }
+      .menu-toggle { width: 30px; margin-left: 680px;}
+      .toggle { margin-left:-20px;  width: 50px;
+        height: 50px;
+        padding: 0;
+        margin-top: 8px;}
+    
+      .advantages__rectangle{ width: 700px;
+      }
+      .advantage__subt{ margin-left: 225px; width:250px;}
+      .advantage__subt_1 {margin-left: 280px;}
+      .advantage__subt_2 {margin-left: 280px;}
+      .advantage__subt_3 {  margin-left: 250px;}
+      .advantage__p {width: 700px;}
+    
+      .team__list { width: 100%; margin-left: 80px;}
+      .teammate__card  .teammate { width: 480px; height: 460px;}
+      .teammate__card { width: 480px; margin-left: -60px;}
+      .teammates__social__media { margin-left: 130px;}
+      .clients {width: 100%;  margin-left: -5px;}
+      .advantage__icon { margin-left: 305px;}
+    }
+    
+    @media screen and (max-width: 750px) { 
+        .footer__contact { margin-left: 20px; margin-top: 1px; flex-wrap: wrap; }
+      .footer__info { margin-left: -125px; margin-top: 1px; display: block;}
+      .footer__form { margin-top: 20px; margin-left: 1px; display: block;}
+      .footer__container {display: inline-block;}
+      .footer__info{margin-left: 35px;}
+      .footer__address{text-align: center; margin-left: -100px;}
+      .footer__contact__title {margin-left: 105px;}
+      .footer__inbox_1 { display: block;}
+      .footer__form{ margin-left: 80px;}
+      .input__email{ width: 200%; margin-left: -150px;
+      }
+      .subscribe__bt {margin-top: 20px; margin-left: 70px;}
+      .menu-toggle { margin-left: 650px;}
+      
+    }
+    @media screen and (max-width:700px) {
+      .footer__container{margin-left: 10px;}
+      .advantages__rectangle { width: 500px; margin-left: 100px;}
+      .advantage__p { width: 500px; margin-left: 100px}
+      .advantage__icon { margin-left: 210px}
+      .input__email { width: 150%; margin-left: -80px;}
+      .team__list{width: 80%;}
+      .clients { width: 500px}
+      .menu-toggle { margin-left: 620px;}
+    
+    }
+    
+    @media screen and (max-width:666px) {
+      .clients { margin-left: -25px;}
+      .team__list { margin-left: 50px;}
+      .footer__container{margin-left: -20px;}
+      .main__index .main__title { font-size: 26px; margin-top: -60px;}
+      .main__index { height: 400px;
+      }
+      .menu-toggle { margin-left: 580px;}
+      
+    }
+    
+    @media screen and (max-width:614px) {
+      .clients { margin-left: -45px;}
+      .team__title { margin-left: -40px;}
+      .team__list { margin-left: 30px;}
+      .menu-toggle { margin-left: 540px;}
+    }
+    
+    @media screen and (max-width:586px) { 
+      .team__cards { width: 300px; margin-left: -130px;}
+      .clients { margin-left: -80px;}
+      .footer__container { margin-left: -30px;}
+      .team__title { margin-left: -40px;}
+      .main__index .main__title { margin-left: -50px}
+      .main__button { margin-left: -60px;}
+      .menu-toggle { margin-left: 490px;}
+      .modal { margin-left: -265px;}
+    } 
+    
+    @media screen and (max-width: 530px){
+      .footer__container { padding: 50px;}
+      .team__cards { margin-left: -120px;}
+      .team__title { margin-left: 0px;}
+      .clients { margin-left: -100px;}
+      .advantages__rectangle { width: 450px; margin-left: 125px;}
+      .advantage__p {width: 450px; margin-left: 125px;}
+      .input__email{ width: 120%; margin-left: -35px;}
+      .advantage__icon { margin-left: 190px;}
+      .menu-toggle { margin-left: 460px;}
+      .modal { width: 370px; margin-left: -190px; height: 600px;}
+      .send__button { margin-left: 40px
+        ;}
+        .input__icon { margin-left: -305px;}
+      .modal__input__box { width: 320px; margin-left: -20px;}
+      .modal__checkbox {width: 330px; margin-left: -15px;}
+      .modal__title { margin-left: -20px;}
+      .modal__quit { margin-left: 330px;}
+    }
+    
+    @media screen and (max-width: 500px) { 
+      .clients__title { font-size: 30px;}
+      .clients {margin-left: -115px;  }
+      .teammate__card{ margin-right: 0px;}
+      .clients__icon__container .client_focus { margin-left: 10px;}
+      .footer__container {margin-left: -40px;}
+      .main__index .main__title { margin-left: -100px; width: 300px; font-size: 26px;}
+      .main__button { margin-left: -70px;}
+      .menu-toggle { margin-left: 420px;}
+    }
+    
+      @media screen and (max-width: 479px)
+      {  
+          .main__index {
+            height: 400px; width: 100%;
+            background-image: linear-gradient( #2F303A66, #2F303A66), url("/images/mobile_background.jpg"); }
+    
+  
+        .page__header { width: 100%vw;}
+        .container__1 { padding: 20px; width: 0px;}
+        .container { width: 100vw}
+        .page__header { height: 60px;}
+      
+        .main__index .main__title { font-size: 26px; width: 400px; margin-left: -80px; margin-top: 30px;}
+        .main__button { 
+          margin-left: -10px; width: 200px; height: 50px;
+        }
+        
+       
+    
+        .backdrop{ height: 5000px;}
+        .send__button{margin-left: 60px;}
+        .nav__header { margin-left: 15px;}
+        .nav__logo { 
+          font-size: 24px;
+          margin-left: 10px;
+        }
+        .nav__logo2 { margin-left: 125px;}
+        .advantages__rectangle { width: 300px; margin-left: 200px;}
+        .advantage__icon{margin-left: 110px;}
+        .advantage__p{ width: 300px; margin-left: 200px;}
+        .advantage__subt {margin-left: 245px;}
+        .advantage__subt_1 {margin-left: 290px;}
+        .advantage__subt_2 {margin-left: 290px;}
+        .team__cards .teammate { width: 340px; height: 320px;}
+        .teammate__card  { width: 340px; margin-left: 5px;}
+        .teammates__social__media { margin-left: 60px;}
+        .clients {width: 100%; margin-left: 0px;}
+        .toggle { margin-left: -20px; }
+      .menu-toggle { width: 30px; margin-left: 350px;}
+    }
+    
+    @media screen and (max-width: 433px) {
+      .footer__container {padding: 40px;}
+      .subscribe__bt { margin-left:25px;}
+      .footer__info { margin-left: -20px;}
+    
+      .main__index .main__title { width: 300px; margin-left: -50px;}
+      .main__button { margin-left: -40px;}
+    }
+    
+    @media screen and (max-width: 390px) {
+      .menu-toggle { width: 30px; margin-left: 320px;}
+      .footer__container { margin-left: -70px; padding: 20px;}
+      .footer__info{margin-left: 50px;}
+      .footer__address__text {margin-left: 180px;}
+      .footer__contact { margin-left: 50px;}
+      .input__email { width: 240px; margin-left: 40px;}
+      .subscribe__bt{margin-left: 60px  ;}
+      .advantage__subt_2 {width: 200px;}
+      .advantage__subt_1 {width: 200px;}
+      .main__index .main__title {margin-left: -70px;}
+      .main__button{margin-left: -50px;}
+    
+      .modal { width: 250px; margin-left: -125px; height: 660px;}
+      .send__button { margin-left: -15px; margin-top: 30px
+        ;}
+        .input__icon { margin-left: -195px;}
+      .modal__input__box { width: 210px; margin-left: -20px;}
+      .modal__checkbox {width: 200px; margin-left: -15px;}
+      .modal__title { margin-left: -20px; font-size: 18px;}
+      .modal__quit { margin-left: 210px;}
+    }
+    
+    @media screen and (max-width: 358px) {
+      .menu-toggle { margin-left: 290px;}
+      .footer__form__title { text-align: center;}
+      .team__cards .teammate { width: 240px; height: 220px;}
+      .teammate__card {width: 240px; margin-left: 60px;}
+      .teammates__social__media{margin-left: 10px;}
+    }
+    
+    @media screen and (max-width: 346px) {
+      .footer__icon{width: 40px;}
+    .container__1{margin-left: -20px;}} 
+    
+    @media screen and (max-width: 328px) {
+      .menu-toggle { margin-left: 270px;}
+      .nav__logo2{margin-left: 100px;}
+      .footer__data_2{margin-left: -30px;}
+      .footer__form{margin-left: 60px;}
+      .footer__list__icon { margin-left: 45px;}
+      .footer__contact__title{margin-left: 70px;}
+      .main__index .main__title{width: 250px;}
+      .main__button{margin-left: -70px;}
+    }
+    
+    @media screen and (max-width: 311px) {
+      .menu-toggle { margin-left: 240px;}
+      .footer__container { margin-left: -70px; padding: 5px; }
+    }
+    
+    @media screen and (max-width: 301px) { 
+      .advantages__rectangle{ width: 190px; margin-left: 260px;}
+      .advantage__icon { margin-left: 63px;}
+      .advantage__p { width: 190px; margin-left: 260px;}
+    }
+    
+    @media screen and (max-width: 287px) { 
+        .footer__address__text { margin-left: 170px;}
+        .footer__form__title {margin-left: 70px;}
+        .input__email { margin-left: 30px;}
+      .footer__container{padding: 0px;}
+      .main__index .main__button {width: 200px; margin-left: -50px;}
+      .advantage__subt {width: 180px; margin-left: 280px;}
+      .advantage__subt_1 { margin-left: 300px; }
+      .clients__title { text-align: center; margin-left: -10px;}
+      .advantage__subt_2 {margin-left: 300px; }
+      .menu-toggle { margin-left: 220px;}
+    
+      .advantage__subt2 { width: 180px;}
+      .subscribe__bt { margin-bottom: 20px; margin-left: 50px;}
+    }
+    
+    .mobile-menu { position: relative;
+      top: -2%}
+      
+      @media screen and (max-height: 915px) {
+        .mobile__info { margin-top: 400px;}
+        .mobile__sm-text { font-size: 18px; margin: 20px;}
+        .mobile__social-media { margin-left: -30px;}
+      }
+      
+      @media screen and (max-height: 914px) {
+        .mobile__sm-text { font-size: 18px; margin: 20px;}
+        .mobile__social-media { margin-left: -30px;}
+      }
+      
+      @media screen and (max-height: 851px) {
+        .mobile__info { margin-top: 340px;}
+      }
+    
+      @media screen and (max-height: 740px)  {
+        .mobile__info { margin-top: 200px;}
+        .mobile__sm-text { font-size: 14px; margin: 20px;}
+        
+      }
+      @media screen and (max-height: 720px) {
+        .mobile__info { margin-top: 200px;}
+    .mobile__social-media { margin-left: -13px;}
+    }
+    
+    @media screen and (max-height: 667px) { 
+      .mobile__info { margin-top: 150px;}
+    }
+    
+    @media screen and (max-height: 653px) {
+        .menu-container { height: 660px;}
+        .mobile__info { margin-top: 25px;}
+        .mobile__sm-text { font-size: 18px; margin: 20px; display: block;}
+        .mobile__social-media { margin-left: -13px; display: block; margin-top: 5px;}
+      }
+    
+    @media screen and (max-width: 1483px) { 
+      .products__list { width: 1300px;}
+    }
+    
+    @media screen and (max-width: 1400px) { 
+      .products__list { margin-left: -100px;}
+    }
+    
+    @media screen and (max-width: 1300px) { 
+      .products__list { width: 100%; margin-left: 0px;}
+      .product__card__last{left: -19.5%;}
+    }
+    
+    @media screen and (max-width: 1270px) { 
+      .product__card__last{left: -20%;}
+    }
+    
+    @media screen and (max-width: 1184px) { 
+      .product__card__last{left: -21.5%;}
+    }
+    
+    @media screen and (max-width: 1116px) { 
+      .product__card__last{left: -23%;}
+    }
+    
+    @media screen and (max-width: 1051px) { 
+      .products__list { width: 1000px; margin-left: -140px;}
+      .product__card__last{left: -21.5%;}
+    }
+    
+    @media screen and (max-width: 955px) { 
+      .products__list { width: 850px; margin-left: -90px;}
+      .product__card { margin: 0px; margin-top: 20px;}
+      .product__card2 { margin-left: 20px;}
+      .product__card__last{left: -23%;}
+    }
+    
+    @media screen and (max-width: 857px) { 
+      .products__list { width: 790px; margin-left: -90px;}
+      .product__card { margin: 0px; margin-top: 20px;}
+      .product__card2 { margin-left: 20px;}
+      .product__card__last{left: -24.7%;}
+    }
+    
+    @media screen and (max-width: 795px) { 
+      .products__list { width: 765px; margin-left: -90px;}
+      .product__card__last{left: -25.7%;}
+    }
+    
+    @media screen and (max-width: 767px) {
+      .products__list { width: 100%;}
+      .product__card__last{ left: 0%;}
+      .product__card2 { margin-left: 0px;}
+      .product__card { margin-left: 160px;}
+
+    }
+    
+    @media screen and (max-width: 668px) {.button2{ width: 100px;} .container__1 {margin-top: 0px;} }
+
+    @media screen and (max-width: 479px) { 
+        .container__1 { width: 200px;}
+
+      }
+
+    @media screen and (max-width: 476px) { 
+      .main__list {flex-wrap: wrap; width: 100%;}
+    }
+    
+    @media screen and (max-width: 346px) { 
+      .product__image { width: 260px; height: 200px;}
+      .products__list { margin-left: -78px;}
+    }
+    
+    
+    .menu {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    
+    
+    
+    
+    .menu .link:hover,
+    .menu .link:focus {
+      text-decoration: underline;
+    }
+    
+    .menu-toggle {
+      min-height: 40px;
+      min-width: 40px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: center;
+    ;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+      border-radius: 50%;
+      outline: none;
+    }
+    
+    
+    
+    
+    .menu-toggle:hover,
+    .menu-toggle:focus {
+      fill: #2196F3;
+    }
+    
+    .menu-container {
+      position: fixed;
+    
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      padding: 32px;
+      background-color: #ffffff;
+      z-index: 999;
+      transform: translateX(500%);
+      transition: transform 250ms ease-in-out;
+    }
+    
+    .menu-container.is-open {
+      transform: translateX(0);
+    
+    }
+    
+    .menu-container .menu-toggle {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      color: black;
+    }
+    
+    .mobile-menu {
+      padding: 0;
+      margin-top: 50px;
+      list-style: none;
+    }
+    
+    .mobile-menu .link {
+      display: block;
+      padding: 10px;
+      color: #0b0909;
+      text-decoration: none;
+      font-size: 40px;
+      line-height: 47px;
+      font-weight: 500;
+    }
+    .mobile-menu .link:hover {
+      color: #2196F3;
+    }
+    .mobile__inf { 
+      font-size: 34px;
+      line-height: 39.4px;
+      font-weight: 500;
+      color: #2196F3;
+    }
+    .mobile__inf_2 { 
+      font-size: 24px;
+      color: #2F303A;
+    }
+    .mobile__inf_link {
+      margin-top: 32px;
+    }
+    .mobile__social-media{ 
+      display: flex;
+      margin-top: 64px;
+    }
+    .mobile__sm-text{
+      font-size: 18px;
+      color: #2196F3;
+    }
+    .mobile__sm-link{
+      margin-right: -20px;
+    }
+    
+    .mobile__info {
+      margin-top: 302px;
+    }

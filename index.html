@@ -15,13 +15,15 @@
 
 <body>
     <header class="page__header">
-        <nav class="nav__header">
+        <nav class="nav__header"> 
+            
+        
             <a class="nav__logo" href="#">
                 WebStudio
-            </a>
+            </a> 
             <ul class="nav__bar">
                 <li class="nav__list">
-                    <a class="nav__link nav__link--current" href="" target="_blank" rel="noopener noreferrer">
+                    <a  class="nav__link nav__link--current" href="" target="_blank" rel="noopener noreferrer">
                         Estudio
                     </a>
                 </li>
@@ -36,6 +38,7 @@
                     </a>
                 </li>
             </ul>
+
         </nav>
 
         <ul class="nav__contact">
@@ -46,7 +49,7 @@
                         </use> 
                     </svg>
                 </a>
-                <a class="nav__inf"> 
+                <a class="nav__inf" > 
                     info@devstudio.com
                 </a>
             </li>
@@ -58,14 +61,83 @@
                     </svg>
                 </a> 
                 <a class="nav__inf" >
-                    +52 55 5529 6000
+                    <nobr> +52 55 5529 6000 </nobr>
                 </a>
             </li>
         </ul>
+
+        <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        >
+    <svg class="toggle" > 
+        <use href="images/icons.svg#toggle" > 
+        </use> 
+    </svg>
+
+    </button>
+
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+                <svg
+                viewBox="2 1.5 17 17"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                >
+                <path
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+                ></path>
+            </svg>
+        </button>
+        
+        <ul class="mobile-menu">
+            <li><a href="" class="link">Estudio</a></li>
+            <li><a href="portfolio.html" class="link">Portafolio</a></li>
+            <li><a href="" class="link">Contactos</a></li>
+        </ul>
+    
+        <ul class="mobile-menu mobile__info">
+            <li class="mobile__inf_link">
+                <a class="mobile__inf"  href="tel:+525555296000"> 
+                    +52 55 5529 6000 
+                </a>
+            </li>
+            <li class="mobile__inf_link">
+                <a class="mobile__inf mobile__inf_2" href="mailto:info@devstudio.com">
+                    info@devstudio.com
+                </a>
+            </li>
+        </ul>
+    
+        <ul class="mobile__social-media">
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Instagram
+                </a>
+
+            </li>
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Twitter 
+                </a>
+        
+            </li>
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Facebook
+                </a>
+         
+            </li>
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Linkedin
+                </a>
+            </li>
+        </ul>
+    </div>
     </header>
 
     <main class="main__index">
-        <div class="container">
+        <div class="container container__1">
             <h1 class="main__title">
                 SOLUCIONES EFICACES PARA <br> SU NEGOCIO
             </h1>
@@ -166,7 +238,7 @@
                     </li>
                 </ul>
                 
-                <ul class="advantage__list">
+                <ul class="advantage__list advantage__list2">
                     <li class="advantage__item"> 
                         <div class="advantages__rectangle advantages__rectangle_2"> 
                             <svg class= "advantage__icon"> 
@@ -174,7 +246,7 @@
                                 </use> 
                             </svg> 
                         </div>
-                        <h3 class="advantage__subt">
+                        <h3 class="advantage__subt advantage__subt_1 ">
                             Puntualidad
                         </h3>
                         <p class="advantage__p">
@@ -193,7 +265,7 @@
                                 </use> 
                             </svg> 
                         </div> 
-                        <h3 class="advantage__subt">
+                        <h3 class="advantage__subt advantage__subt_2">
                             Planificación
                         </h3>
                         <p class="advantage__p">
@@ -203,15 +275,15 @@
                     </li>
                 </ul>
                 
-                <ul class="advantage__list">
+                <ul class="advantage__list advantage_last">
                     <li class="advantage__item"> 
-                        <div class="advantages__rectangle"> 
+                        <div class="advantages__rectangle "> 
                             <svg class= "advantage__icon"> 
                                 <use href="images/icons.svg#astronaut"> 
                                 </use> 
                             </svg> 
                         </div>
-                        <h3 class="advantage__subt">
+                        <h3 class="advantage__subt advantage__subt_3">
                             Tecnología moderna
                         </h3>
                         <p class="advantage__p">
@@ -266,7 +338,7 @@
             </h2>
             <div class="team__cards"> 
                 <ul class="team__list">
-                    <li class="teammate__card"> 
+                    <li class="teammate__card teammate__card1"> 
                         <img class="teammate" src="images/teammate1.jpg" alt="Compañero1">
                         <h3 class="teammate__name">
                             Andrés Cubo
@@ -307,7 +379,7 @@
                         </div>
                     </li> 
                     
-                    <li class="teammate__card"> 
+                    <li class="teammate__card teammate__card2"> 
                         <img class="teammate" src="images/teammate2.jpg" alt="Compañero2">
                         <h3 class="teammate__name">
                             Carla Palacios
@@ -348,7 +420,7 @@
                         </div>
                     </li> 
                     
-                    <li class="teammate__card"> 
+                    <li class="teammate__card teammate__card1"> 
                         <img class="teammate" src="images/teammate3.jpg" alt="Compañero3">
                         <h3 class="teammate__name">
                             Mario Dorado
@@ -389,7 +461,7 @@
                         </div>
                     </li>
                     
-                    <li class="teammate__card">  
+                    <li class="teammate__card teammate__card2">  
                         <img class="teammate" src="images/teammate4.jpg" alt="Compañero4">
                         <h3 class="teammate__name">
                             Pablo Mijangos
@@ -441,6 +513,7 @@
                 Clientes regulares
             </h2>
             <ul class="clients"> 
+    
                 <li class="clients__icon__container"> 
                     <a href=""  class="client_focus">
                         <svg class="clients__icon" > 
@@ -456,7 +529,9 @@
                         </svg>
                     </a>
                 </li>
+          
 
+           
                 <li class="clients__icon__container "> 
                     <a href=""  class="client_focus">
                         <svg class="clients__icon clients__icon3" > 
@@ -472,7 +547,8 @@
                         </svg>
                     </a>
                 </li>
-
+      
+         
                 <li class="clients__icon__container"> 
                     <a href=""  class="client_focus">
                         <svg class="clients__icon clients__icon5" > 
@@ -489,18 +565,19 @@
                 </a>
                 </li>
             </ul>
+
         </div>
     </section>
     
     <footer class="page__footer">
         <div class="container footer__container">
             <div class="footer__info"> 
-                <a class="nav__logo" href="">
+                <a class="nav__logo nav__logo2" href="">
                     WebStudio
                 </a>
                 <address class="footer__address">
                     <a class=" footer__text footer__address__text" href="" target="_blank" rel="noopener noreferrer"> 
-                        Calz. Ticomán 500,   Ciudad de  <div> México, CDMX, México 
+                    <nobr> Calz. Ticomán 500,   Ciudad de  <div> México, CDMX, México </nobr>
                     </a>
                 </address>
                 <ul class="footer__data footer__data_2">
@@ -582,6 +659,15 @@
             </form>
         </div>
     </footer>
-    <script src="./js/modal.js"></script>
+
+
+<script
+defer
+src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+crossorigin="anonymous"
+></script>
+<script defer src="/js/mobile-menu.JS"></script>
+<script src="./js/modal.js"></script>
 </body>
 </html>

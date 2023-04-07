@@ -62,6 +62,74 @@
                 </a>
             </li>
         </ul>
+
+        <button
+        class="menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        >
+    <svg class="toggle" > 
+        <use href="images/icons.svg#toggle" > 
+        </use> 
+    </svg>
+
+    </button>
+        <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+                <svg
+                viewBox="2 1.5 17 17"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                >
+                <path
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clip-rule="evenodd"
+                ></path>
+            </svg>
+        </button>
+        
+        <ul class="mobile-menu">
+            <li><a href="index.html" class="link">Estudio</a></li>
+            <li><a href="portfolio.html" class="link">Portafolio</a></li>
+            <li><a href="" class="link">Contactos</a></li>
+        </ul>
+    
+        <ul class="mobile-menu mobile__info">
+            <li class="mobile__inf_link">
+                <a class="mobile__inf"  href="tel:+525555296000"> 
+                    +52 55 5529 6000 
+                </a>
+            </li>
+            <li class="mobile__inf_link">
+                <a class="mobile__inf mobile__inf_2" href="mailto:info@devstudio.com">
+                    info@devstudio.com
+                </a>
+            </li>
+        </ul>
+    
+        <ul class="mobile__social-media">
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Instagram
+                </a>
+
+            </li>
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Twitter 
+                </a>
+        
+            </li>
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Facebook
+                </a>
+                
+            </li>
+            <li class="mobile__sm-link">
+                <a class="mobile__sm-text" href=""> Linkedin
+                </a>
+            </li>
+        </ul>
+    </div>
     </header>
     
 <main class="port__main">
@@ -78,7 +146,7 @@
                 </button>
             </li>
             <li class="main__buttons">
-                <button class="button" type="button"> 
+                <button class="button " type="button"> 
                     Sitios-web 
                 </button>
             </li>  
@@ -116,7 +184,7 @@
                 </p>
             </li>
 
-            <li class="product__card">
+            <li class="product__card product__card2">
                 <a href="#" class="product__link"> 
                     <img class="product__image" src="images/basket.jpg" alt="Poster">
                     <div class="product__blue__card"> 
@@ -148,7 +216,7 @@
                 </p>
             </li>
 
-            <li class="product__card">
+            <li class="product__card product__card2">
                 <a href="#" class="product__link"> 
                     <img class="product__image" src="images/headphones.jpg" alt="Auriculares">
                     <div class="product__blue__card"> 
@@ -179,7 +247,7 @@
                 </p>
             </li>
 
-            <li class="product__card">
+            <li class="product__card product__card2">
                 <a href="#" class="product__link"> 
                     <img class="product__image" src="images/computer_screen.jpg" alt="Sitio-web2">
                     <div class="product__blue__card"> 
@@ -209,7 +277,7 @@
                 </p>
             </li>
 
-            <li class="product__card">
+            <li class="product__card product__card2">
                 <a href="#" class="product__link"> 
                     <img class="product__image" src="images/tag.jpg" alt="Tag">
                     <div class="product__blue__card"> 
@@ -225,7 +293,7 @@
                 </p>
             </li>
 
-            <li class="product__card">
+            <li class="product__card product__card__last">
                 <a href="#" class="product__link"> 
                     <img class="product__image" src="images/laptop.jpg" alt="Laptop">
                     <div class="product__blue__card"> 
@@ -248,7 +316,7 @@
 <footer class="page__footer">
     <div class="container footer__container">
         <div class="footer__info"> 
-            <a class="nav__logo" href="">
+            <a class="nav__logo nav__logo2" href="">
                 WebStudio
             </a>
             <address class="footer__address">
@@ -335,5 +403,14 @@
         </form>
     </div>
 </footer>
+
+<script
+defer
+src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+crossorigin="anonymous"
+></script>
+<script defer src="/js/mobile-menu.JS"></script>
+<script src="./js/modal.js"></script>
 </body>
 </html>
